@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run TSP Compare (data200)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/tsp_compare_with_github.py",
+            "console": "integratedTerminal",
+            "args": ["--js-data-file", "${workspaceFolder}/data.js", "--use", "data200"]
+        },
+        {
+            "name": "Run TSP Compare (data500)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/tsp_compare_with_github.py",
+            "console": "integratedTerminal",
+            "args": ["--js-data-file", "${workspaceFolder}/data.js", "--use", "data500"]
+        }
+    ]
+}
